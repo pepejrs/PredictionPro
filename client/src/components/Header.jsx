@@ -13,36 +13,36 @@ function logout(){
   return (
 <>
 <header className="site-header sticky-top py-1">
-  <nav className="container d-flex flex-column flex-md-row justify-content-between">
+  <nav className="container mt-2 mb-2 d-flex flex-column flex-md-row justify-content-between">
   <Link to="/" >
-    <button>
+    <button className="btn btn-dark btn-outline-light">
         Home
         </button>
       </Link>
       <Link to="/heatmap" >
       
-      <button>
+      <button className="btn btn-dark btn-outline-light">
         Heatmap
         </button>
       
       </Link>
       <Link to="/insert" >
       
-      <button>
+      <button className="btn btn-dark btn-outline-light">
         Insert
         </button>
       
       </Link>
       <Link to="/today" >
       
-      <button>
+      <button className="btn btn-dark btn-outline-light">
         Today
         </button>
       
       </Link>
       
       <Link to="/prediction">
-            <button>Prediction</button>
+            <button className="btn btn-dark btn-outline-light">Prediction</button>
           </Link>
       {log &&
       <button onClick={logout}>

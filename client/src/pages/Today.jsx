@@ -95,19 +95,21 @@ export default function Today() {
   }, [selectedDate]);
 
   return (
-    <div className="container" style={{ background: 'linear-gradient(to bottom right, #7ad1f5, #b1e2ff)' }}>
+    <div className="container rounded col-md-12 container-fluid pb-5 text-center mt-5" style={{ background: 'linear-gradient(to bottom right, #7ad1f5, #b1e2ff)' }}>
      
-    <h2 className="mt-4">Select a Date:</h2>
+    <h2 className="mt-4 pt-4">Select a Date:</h2>
     <form onSubmit={handleSubmit} className="mb-4">
-      <div className="row">
-        <div className="col-md-4">
+      <div className="row d-flex justify-content-center">
+        <div className="col-4"></div>
+        <div className="col-4">
           <input
             type="date"
-            className="form-control"
+            className="form-control mt-5 col-6 text-center"
             value={selectedDate}
             onChange={handleDateChange}
           />
         </div>
+        <div className="col-4"></div>
         <div className="col-md-2">
           {/* <button type="submit" className="btn btn-primary">
             Submit

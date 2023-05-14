@@ -13,6 +13,10 @@ body {
     background: #ecf0f3;
 }
 
+.intro h1{
+    margin-top: 100px;
+}
+
 .wrapper {
     max-width: 350px;
     min-height: 500px;

@@ -8,7 +8,7 @@ export default function Home() {
     
       <main>
         {/* 1 */}
-        <div className="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light mains">
+        <div className="position-relative overflow-hidden p-3 p-md-5 m-md-2 text-center bg-light mains">
           <div className="col-md-6 p-xl-5 mx-auto my-5 heading intro">
             <h1 className="display-4 fw-normal">Prevention Pro</h1>
             <p className="lead fw-normal">
@@ -146,22 +146,22 @@ export default function Home() {
             </div>
             <div className="member m1 col-4">
               <img src="images/boy (4).png" alt="mem-1" />
-              <h4 className="text-light">xyx</h4>
+              <h4 className="text-light">Devesh Charan</h4>
             </div>
             <div className="col-2"></div>
           </div>
           <div className="row p-lg-5">
             <div className="member m1 col-4">
               <img src="images/boy (5).png" alt="mem-1" />
-              <h4 className="text-light">xxx</h4>
+              <h4 className="text-light">Shivansh Mishra</h4>
             </div>
             <div className="member m1 col-4">
               <img src="images/boy (6).png" alt="mem-1" />
-              <h4 className="text-light">xxx</h4>
+              <h4 className="text-light">Himanshu</h4>
             </div>
             <div className="member m1 col-4">
               <img src="images/boy (7).png" alt="mem-1" />
-              <h4 className="text-light">xxx</h4>
+              <h4 className="text-light">Harsh Dubey</h4>
             </div>
           </div>
         </div>

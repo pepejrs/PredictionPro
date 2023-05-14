@@ -29,7 +29,7 @@ const PredictionPage = () => {
     "https://www.emro.who.int/about-who/public-health-functions/health-promotion-disease-prevention.html";
 
   return (
-    <div className="container">
+    <div className="container text-center pt-xl-5">
       <h1 className="mt-4">Prediction</h1>
 
       {isLoading ? (
@@ -54,7 +54,7 @@ const PredictionPage = () => {
     </>
       
       ) : (
-        <div className="mt-4">
+        <div className="mt-4 pt-xl-4">
           <h4>High probability of the following diseases</h4>
 
           {(!isLoading&&(predictionData.length === 0)) ? (
@@ -92,7 +92,7 @@ const PredictionPage = () => {
         </div>
       )}
 
-      <div className="mt-4">
+      <div className="mt-4 pt-xl-2">
         <button className="btn btn-primary" onClick={fetchData}>
           Taking too long? Fetch again
         </button>
